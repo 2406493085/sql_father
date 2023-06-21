@@ -11,7 +11,7 @@ spring:
   # 数据库配置
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://bj-cynosdbmysql-grp-pctl28ik.sql.tencentcdb.com:21598/sqlfather?useSSL=false
+    url: jdbc:mysql://bj-cynosdbmysql-grp-pctl28ik.sql.tencentcdb.com:21598/sqlfather?useSSL=false&serverTimezone=CST
     username: root
     password: Lqz15132932230
 server:
